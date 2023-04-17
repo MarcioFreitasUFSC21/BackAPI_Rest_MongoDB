@@ -1,0 +1,15 @@
+GET = "http://localhost:5000/api/services/643c4e011076b1e4b293d2e2
+
+###
+DELETE GET = "http://localhost:5000/api/services/643c4e011076b1e4b293d2e2
+###
+PUT = "http://localhost:5000/api/services/643c4e011076b1e4b293d2e2
+Content-Type: application/json
+{
+    "name": "somebody service",
+    "description": "somebody service description",
+    "price": 1400,
+    "image":"/img/img"
+
+
+}
